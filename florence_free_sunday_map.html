@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6f63bf2522242ed931ccf17759e718c8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6f63bf2522242ed931ccf17759e718c8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6f63bf2522242ed931ccf17759e718c8 = L.map(
+                "map_6f63bf2522242ed931ccf17759e718c8",
+                {
+                    center: [43.771, 11.255],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_6f63bf2522242ed931ccf17759e718c8);
+
+            
+
+        
+    
+            var tile_layer_99707204abfe22862fa95e8dfc15d0cb = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6f63bf2522242ed931ccf17759e718c8);
+        
+    
+            var feature_group_c121bf6a4f6e407357bef3ed8fe0b9ad = L.featureGroup(
+                {}
+            ).addTo(map_6f63bf2522242ed931ccf17759e718c8);
+        
+    
+            var marker_9a6dfc85224ecb32b5125938e5cc5cc9 = L.marker(
+                [43.7687, 11.255],
+                {}
+            ).addTo(feature_group_c121bf6a4f6e407357bef3ed8fe0b9ad);
+        
+    
+            var icon_ba50c5191f7412571d54d283564e90a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9a6dfc85224ecb32b5125938e5cc5cc9.setIcon(icon_ba50c5191f7412571d54d283564e90a1);
+        
+    
+        var popup_404d4bbea30570c4574eab79baf37c46 = L.popup({"maxWidth": 280});
+
+        
+            var html_58368303b1e515314532d0cbc67e0a64 = $(`<div id="html_58368303b1e515314532d0cbc67e0a64" style="width: 100.0%; height: 100.0%;"><b>Uffizi Gallery</b><br/>State museum. Very busy on Free Sundays.</div>`)[0];
+            popup_404d4bbea30570c4574eab79baf37c46.setContent(html_58368303b1e515314532d0cbc67e0a64);
+        
+
+        marker_9a6dfc85224ecb32b5125938e5cc5cc9.bindPopup(popup_404d4bbea30570c4574eab79baf37c46)
+        ;
+
+        
+    
+    
+            marker_9a6dfc85224ecb32b5125938e5cc5cc9.bindTooltip(
+                `<div>
+                     Uffizi Gallery
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed6935ad06cc31d3969c4948b8344baa = L.marker(
+                [43.7655, 11.25],
+                {}
+            ).addTo(feature_group_c121bf6a4f6e407357bef3ed8fe0b9ad);
+        
+    
+            var icon_993b424fc833d4e3532b4194a77bd513 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ed6935ad06cc31d3969c4948b8344baa.setIcon(icon_993b424fc833d4e3532b4194a77bd513);
+        
+    
+        var popup_2acbe851596220ab250a389ae85032a4 = L.popup({"maxWidth": 280});
+
+        
+            var html_2d035b8d27fcd39e715ec13a15514763 = $(`<div id="html_2d035b8d27fcd39e715ec13a15514763" style="width: 100.0%; height: 100.0%;"><b>Palazzo Pitti</b><br/>Includes Palatine Gallery; Boboli Gardens entry nearby.</div>`)[0];
+            popup_2acbe851596220ab250a389ae85032a4.setContent(html_2d035b8d27fcd39e715ec13a15514763);
+        
+
+        marker_ed6935ad06cc31d3969c4948b8344baa.bindPopup(popup_2acbe851596220ab250a389ae85032a4)
+        ;
+
+        
+    
+    
+            marker_ed6935ad06cc31d3969c4948b8344baa.bindTooltip(
+                `<div>
+                     Palazzo Pitti
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_14b0f7857d824cc7cd47ab485c2efdcc = L.marker(
+                [43.7647, 11.2506],
+                {}
+            ).addTo(feature_group_c121bf6a4f6e407357bef3ed8fe0b9ad);
+        
+    
+            var icon_b074a31c2d47514ad7b5fd447b20ba44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_14b0f7857d824cc7cd47ab485c2efdcc.setIcon(icon_b074a31c2d47514ad7b5fd447b20ba44);
+        
+    
+        var popup_c7226bb66e2e23ed7ca2fe0462f96c3d = L.popup({"maxWidth": 280});
+
+        
+            var html_88f757ea86a556aa5f7f1bc1fc0a3ff9 = $(`<div id="html_88f757ea86a556aa5f7f1bc1fc0a3ff9" style="width: 100.0%; height: 100.0%;"><b>Boboli Gardens</b><br/>Wide outdoor space; lines feel lighter than galleries.</div>`)[0];
+            popup_c7226bb66e2e23ed7ca2fe0462f96c3d.setContent(html_88f757ea86a556aa5f7f1bc1fc0a3ff9);
+        
+
+        marker_14b0f7857d824cc7cd47ab485c2efdcc.bindPopup(popup_c7226bb66e2e23ed7ca2fe0462f96c3d)
+        ;
+
+        
+    
+    
+            marker_14b0f7857d824cc7cd47ab485c2efdcc.bindTooltip(
+                `<div>
+                     Boboli Gardens
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d2ad3c10610c54a3ca078cf28294f52 = L.marker(
+                [43.7768, 11.259],
+                {}
+            ).addTo(feature_group_c121bf6a4f6e407357bef3ed8fe0b9ad);
+        
+    
+            var icon_47891c431cd0d94b4626470a00192d56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6d2ad3c10610c54a3ca078cf28294f52.setIcon(icon_47891c431cd0d94b4626470a00192d56);
+        
+    
+        var popup_fc13f229135eca10a497fdb8b984075d = L.popup({"maxWidth": 280});
+
+        
+            var html_9b6df5b32e726c23c6d3bbf907733c59 = $(`<div id="html_9b6df5b32e726c23c6d3bbf907733c59" style="width: 100.0%; height: 100.0%;"><b>Accademia Gallery</b><br/>Home of Michelangelo’s David. Arrive early.</div>`)[0];
+            popup_fc13f229135eca10a497fdb8b984075d.setContent(html_9b6df5b32e726c23c6d3bbf907733c59);
+        
+
+        marker_6d2ad3c10610c54a3ca078cf28294f52.bindPopup(popup_fc13f229135eca10a497fdb8b984075d)
+        ;
+
+        
+    
+    
+            marker_6d2ad3c10610c54a3ca078cf28294f52.bindTooltip(
+                `<div>
+                     Accademia Gallery
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78bca60edbe2bc74f07701942389f062 = L.marker(
+                [43.7691, 11.2579],
+                {}
+            ).addTo(feature_group_c121bf6a4f6e407357bef3ed8fe0b9ad);
+        
+    
+            var icon_f108453fdd7a988feffd0daa2097ec50 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_78bca60edbe2bc74f07701942389f062.setIcon(icon_f108453fdd7a988feffd0daa2097ec50);
+        
+    
+        var popup_dab30f34ec8b6fc6177d90cdc9702429 = L.popup({"maxWidth": 280});
+
+        
+            var html_2b483b961936d6ebbb2a09914eddc507 = $(`<div id="html_2b483b961936d6ebbb2a09914eddc507" style="width: 100.0%; height: 100.0%;"><b>Bargello National Museum</b><br/>Sculpture treasures; often a good alternative to Uffizi.</div>`)[0];
+            popup_dab30f34ec8b6fc6177d90cdc9702429.setContent(html_2b483b961936d6ebbb2a09914eddc507);
+        
+
+        marker_78bca60edbe2bc74f07701942389f062.bindPopup(popup_dab30f34ec8b6fc6177d90cdc9702429)
+        ;
+
+        
+    
+    
+            marker_78bca60edbe2bc74f07701942389f062.bindTooltip(
+                `<div>
+                     Bargello National Museum
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25c3a66fb58dc8524944c94dc8451345 = L.marker(
+                [43.7751, 11.2513],
+                {}
+            ).addTo(feature_group_c121bf6a4f6e407357bef3ed8fe0b9ad);
+        
+    
+            var icon_72326b10fd603523410afd72937d0e9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_25c3a66fb58dc8524944c94dc8451345.setIcon(icon_72326b10fd603523410afd72937d0e9c);
+        
+    
+        var popup_309e46b6a95afdeef78271bb2c32a446 = L.popup({"maxWidth": 280});
+
+        
+            var html_68c79c96c6e5ec14dc256344a4addbca = $(`<div id="html_68c79c96c6e5ec14dc256344a4addbca" style="width: 100.0%; height: 100.0%;"><b>Medici Chapels (Cappelle Medicee)</b><br/>Adjacent Basilica di San Lorenzo is NOT included.</div>`)[0];
+            popup_309e46b6a95afdeef78271bb2c32a446.setContent(html_68c79c96c6e5ec14dc256344a4addbca);
+        
+
+        marker_25c3a66fb58dc8524944c94dc8451345.bindPopup(popup_309e46b6a95afdeef78271bb2c32a446)
+        ;
+
+        
+    
+    
+            marker_25c3a66fb58dc8524944c94dc8451345.bindTooltip(
+                `<div>
+                     Medici Chapels (Cappelle Medicee)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c398131931bd2061e41241d6820cb401 = L.marker(
+                [43.7763, 11.262],
+                {}
+            ).addTo(feature_group_c121bf6a4f6e407357bef3ed8fe0b9ad);
+        
+    
+            var icon_d311c0e71ebc4820b7bc5aa00d0103db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c398131931bd2061e41241d6820cb401.setIcon(icon_d311c0e71ebc4820b7bc5aa00d0103db);
+        
+    
+        var popup_b8e1cec944bdedf3cd5475535e08f714 = L.popup({"maxWidth": 280});
+
+        
+            var html_31e8a7c6feb06f024b4319dd9feb7274 = $(`<div id="html_31e8a7c6feb06f024b4319dd9feb7274" style="width: 100.0%; height: 100.0%;"><b>National Archaeological Museum (Florence)</b><br/>Etruscan and Egyptian collections.</div>`)[0];
+            popup_b8e1cec944bdedf3cd5475535e08f714.setContent(html_31e8a7c6feb06f024b4319dd9feb7274);
+        
+
+        marker_c398131931bd2061e41241d6820cb401.bindPopup(popup_b8e1cec944bdedf3cd5475535e08f714)
+        ;
+
+        
+    
+    
+            marker_c398131931bd2061e41241d6820cb401.bindTooltip(
+                `<div>
+                     National Archaeological Museum (Florence)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f3f12d8481b45087cdd93d4ef8e83bbf = L.marker(
+                [43.7769, 11.2911],
+                {}
+            ).addTo(feature_group_c121bf6a4f6e407357bef3ed8fe0b9ad);
+        
+    
+            var icon_8b9b3a566a9dec20d267eeb963cc22dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f3f12d8481b45087cdd93d4ef8e83bbf.setIcon(icon_8b9b3a566a9dec20d267eeb963cc22dd);
+        
+    
+        var popup_513abd9d044c29c2f26e754f27c67fb7 = L.popup({"maxWidth": 280});
+
+        
+            var html_684e902ac6c801e747322c4c8f962653 = $(`<div id="html_684e902ac6c801e747322c4c8f962653" style="width: 100.0%; height: 100.0%;"><b>Last Supper of Andrea del Sarto (San Salvi)</b><br/>Fresco in the former Vallombrosan convent.</div>`)[0];
+            popup_513abd9d044c29c2f26e754f27c67fb7.setContent(html_684e902ac6c801e747322c4c8f962653);
+        
+
+        marker_f3f12d8481b45087cdd93d4ef8e83bbf.bindPopup(popup_513abd9d044c29c2f26e754f27c67fb7)
+        ;
+
+        
+    
+    
+            marker_f3f12d8481b45087cdd93d4ef8e83bbf.bindTooltip(
+                `<div>
+                     Last Supper of Andrea del Sarto (San Salvi)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fabc140f11d21d26a923c00757da262a = L.marker(
+                [43.8186, 11.2226],
+                {}
+            ).addTo(feature_group_c121bf6a4f6e407357bef3ed8fe0b9ad);
+        
+    
+            var icon_183438373829134e131015781686544c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fabc140f11d21d26a923c00757da262a.setIcon(icon_183438373829134e131015781686544c);
+        
+    
+        var popup_c80a405118c3d0d88967b37bfb09fff2 = L.popup({"maxWidth": 280});
+
+        
+            var html_7b862d005ab40e220b6fd70c1fda5ff9 = $(`<div id="html_7b862d005ab40e220b6fd70c1fda5ff9" style="width: 100.0%; height: 100.0%;"><b>Garden of Villa Medicea di Castello</b><br/>Historic Medici garden; north of Florence.</div>`)[0];
+            popup_c80a405118c3d0d88967b37bfb09fff2.setContent(html_7b862d005ab40e220b6fd70c1fda5ff9);
+        
+
+        marker_fabc140f11d21d26a923c00757da262a.bindPopup(popup_c80a405118c3d0d88967b37bfb09fff2)
+        ;
+
+        
+    
+    
+            marker_fabc140f11d21d26a923c00757da262a.bindTooltip(
+                `<div>
+                     Garden of Villa Medicea di Castello
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_83c81c813a187861769e014cfd5a5b64 = L.marker(
+                [43.7376, 10.8836],
+                {}
+            ).addTo(feature_group_c121bf6a4f6e407357bef3ed8fe0b9ad);
+        
+    
+            var icon_222c8dc0217886cb92ab1163f24fd948 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_83c81c813a187861769e014cfd5a5b64.setIcon(icon_222c8dc0217886cb92ab1163f24fd948);
+        
+    
+        var popup_050bd1a4251f44d2b1df96a3118975fb = L.popup({"maxWidth": 280});
+
+        
+            var html_a34f796ec7216d3361fd8ec7e5779d4f = $(`<div id="html_a34f796ec7216d3361fd8ec7e5779d4f" style="width: 100.0%; height: 100.0%;"><b>Medici Villa of Cerreto Guidi & Hunting Museum</b><br/>Outside Florence; check hours on free Sundays.</div>`)[0];
+            popup_050bd1a4251f44d2b1df96a3118975fb.setContent(html_a34f796ec7216d3361fd8ec7e5779d4f);
+        
+
+        marker_83c81c813a187861769e014cfd5a5b64.bindPopup(popup_050bd1a4251f44d2b1df96a3118975fb)
+        ;
+
+        
+    
+    
+            marker_83c81c813a187861769e014cfd5a5b64.bindTooltip(
+                `<div>
+                     Medici Villa of Cerreto Guidi & Hunting Museum
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_9709ec7db92377a1366da21fa0dccc26 = L.featureGroup(
+                {}
+            ).addTo(map_6f63bf2522242ed931ccf17759e718c8);
+        
+    
+            var marker_57b7c8bc7eedbd17e1e87cbe8b8747d9 = L.marker(
+                [43.7731, 11.2556],
+                {}
+            ).addTo(feature_group_9709ec7db92377a1366da21fa0dccc26);
+        
+    
+            var icon_505e064fe6d421a6196d8272bc2a452f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_57b7c8bc7eedbd17e1e87cbe8b8747d9.setIcon(icon_505e064fe6d421a6196d8272bc2a452f);
+        
+    
+        var popup_615542c2e7399cab5fafcb414d39b071 = L.popup({"maxWidth": 280});
+
+        
+            var html_f732e31a48a56bcde6c5a5dc0e3931ca = $(`<div id="html_f732e31a48a56bcde6c5a5dc0e3931ca" style="width: 100.0%; height: 100.0%;"><b>Duomo Complex (Cathedral, Dome, Baptistery, Museum)</b><br/>Not part of Domenica al Museo.</div>`)[0];
+            popup_615542c2e7399cab5fafcb414d39b071.setContent(html_f732e31a48a56bcde6c5a5dc0e3931ca);
+        
+
+        marker_57b7c8bc7eedbd17e1e87cbe8b8747d9.bindPopup(popup_615542c2e7399cab5fafcb414d39b071)
+        ;
+
+        
+    
+    
+            marker_57b7c8bc7eedbd17e1e87cbe8b8747d9.bindTooltip(
+                `<div>
+                     Duomo Complex (Cathedral, Dome, Baptistery, Museum)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b44d634369d5d30bab703d8401e75de = L.marker(
+                [43.774, 11.2499],
+                {}
+            ).addTo(feature_group_9709ec7db92377a1366da21fa0dccc26);
+        
+    
+            var icon_13ca159b8590562778c53ffc58b7400d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2b44d634369d5d30bab703d8401e75de.setIcon(icon_13ca159b8590562778c53ffc58b7400d);
+        
+    
+        var popup_446e03c06eb1d7d44175206fffcca3b6 = L.popup({"maxWidth": 280});
+
+        
+            var html_0bd2685542f78004d609136b38b25ebb = $(`<div id="html_0bd2685542f78004d609136b38b25ebb" style="width: 100.0%; height: 100.0%;"><b>Basilica of Santa Maria Novella (parts)</b><br/>Generally excluded; residents may have specific benefits elsewhere.</div>`)[0];
+            popup_446e03c06eb1d7d44175206fffcca3b6.setContent(html_0bd2685542f78004d609136b38b25ebb);
+        
+
+        marker_2b44d634369d5d30bab703d8401e75de.bindPopup(popup_446e03c06eb1d7d44175206fffcca3b6)
+        ;
+
+        
+    
+    
+            marker_2b44d634369d5d30bab703d8401e75de.bindTooltip(
+                `<div>
+                     Basilica of Santa Maria Novella (parts)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49c9e0a1cf2002c2c44800b3604d7f5d = L.marker(
+                [43.7696, 11.2556],
+                {}
+            ).addTo(feature_group_9709ec7db92377a1366da21fa0dccc26);
+        
+    
+            var icon_00d748fae7a6bc60c03f904d6192b74f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_49c9e0a1cf2002c2c44800b3604d7f5d.setIcon(icon_00d748fae7a6bc60c03f904d6192b74f);
+        
+    
+        var popup_59e055f039de591354ae39d1feb5a8da = L.popup({"maxWidth": 280});
+
+        
+            var html_df6748c193b3151a73bec4b0506bb8b3 = $(`<div id="html_df6748c193b3151a73bec4b0506bb8b3" style="width: 100.0%; height: 100.0%;"><b>Palazzo Vecchio (Civic Museum)</b><br/>Civic museum; residents may have free access on some Sundays.</div>`)[0];
+            popup_59e055f039de591354ae39d1feb5a8da.setContent(html_df6748c193b3151a73bec4b0506bb8b3);
+        
+
+        marker_49c9e0a1cf2002c2c44800b3604d7f5d.bindPopup(popup_59e055f039de591354ae39d1feb5a8da)
+        ;
+
+        
+    
+    
+            marker_49c9e0a1cf2002c2c44800b3604d7f5d.bindTooltip(
+                `<div>
+                     Palazzo Vecchio (Civic Museum)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_e75901a0280223cd1de206ba4363c110 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_99707204abfe22862fa95e8dfc15d0cb,
+                },
+                overlays :  {
+                    "Free Sunday \u2013 Included (State)" : feature_group_c121bf6a4f6e407357bef3ed8fe0b9ad,
+                    "Not Included (Civic/Other)" : feature_group_9709ec7db92377a1366da21fa0dccc26,
+                },
+            };
+            L.control.layers(
+                layer_control_e75901a0280223cd1de206ba4363c110.base_layers,
+                layer_control_e75901a0280223cd1de206ba4363c110.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_6f63bf2522242ed931ccf17759e718c8);
+        
+</script>
+</html>
